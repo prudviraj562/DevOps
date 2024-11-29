@@ -1,7 +1,20 @@
 1.  Explain Docker image?
 
-A Docker image is a lightweight, standalone, and executable software package that contains all the dependencies 
-(code, runtime, libraries, and environment variables) required to run an application. It serves as a template to create Docker containers.
+- A Docker image is a lightweight, standalone, and executable software package that contains all the dependencies 
+  (code, runtime, libraries, and environment variables) required to run an application. It serves as a template to create Docker containers.
 
+2. How do Docker images and containers differ?
 
+- A Docker image is a static, read-only template.
+- A Docker container is a runtime instance of a Docker image, which is mutable and can be executed.
 
+3. How are layers used in Docker images?
+
+- Docker images are made up of multiple layers,
+  where each layer represents changes (like file additions or modifications). Layers are cached, which makes builds faster and reduces storage redundancy.
+
+4. How do you create a Docker image?
+
+- You can create a Docker image using a Dockerfile and the docker build command.
+
+5. 
