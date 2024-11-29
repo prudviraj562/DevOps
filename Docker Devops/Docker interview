@@ -1,1 +1,7 @@
+1.  Explain Docker image?
+
+A Docker image is a lightweight, standalone, and executable software package that contains all the dependencies 
+(code, runtime, libraries, and environment variables) required to run an application. It serves as a template to create Docker containers.
+
+
 
