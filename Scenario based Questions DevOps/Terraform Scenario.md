@@ -42,3 +42,57 @@ Scenario: You are managing multiple environments (e.g., dev, staging, production
 
 Scenario: Your Terraform codebase has grown significantly large, and managing all infrastructure in a single configuration file has become unmanageable. How would you break down your Terraform configuration into smaller, more manageable pieces?
 
+1. State Management
+
+Scenario: You’ve been working on a Terraform project with a remote backend. Your team accidentally deleted the Terraform state file. How would you recover it, and what precautions should you take to avoid such issues in the future?
+
+Concepts: Terraform state, remote backend, state file recovery, state locking, backup strategies.
+
+
+2. Handling Resource Drift
+
+Scenario: Your infrastructure has drifted from the Terraform configuration. How would you identify and reconcile the drift using Terraform?
+
+Concepts: Terraform plan, refresh, resource drift, reconciliation strategies, Terraform state file synchronization.
+
+
+3. Managing Sensitive Data
+
+Scenario: How would you handle sensitive data like passwords, API keys, or certificates in your Terraform configuration?
+
+Concepts: Environment variables, Terraform var files, AWS Secrets Manager, Vault, encryption, sensitive variables in Terraform.
+
+
+4. Multi-Environment Setup
+
+Scenario: You are managing multiple environments (dev, staging, production) using Terraform. How would you structure your configuration to handle this setup efficiently?
+
+Concepts: Workspaces, environment-specific variables, folder structure, reusability with modules, remote backend per environment.
+
+
+5. Terraform Modules
+
+Scenario: Your team wants to reuse a complex configuration (e.g., VPC setup, RDS instance) across multiple projects. How would you implement this with Terraform?
+
+Concepts: Terraform modules, reusability, inputs and outputs, module registry, best practices for structuring modules.
+
+
+6. Provisioning and Rollbacks
+
+Scenario: You’ve provisioned infrastructure using Terraform, but a bug in your configuration caused downtime. How would you roll back to a previous working state?
+
+Concepts: Terraform state versions, terraform apply rollback, manual state modification, version control practices.
+
+
+7. Terraform with CI/CD
+
+Scenario: You’re tasked with automating the infrastructure deployment process using Terraform in a CI/CD pipeline. How would you integrate Terraform in this pipeline?
+
+Concepts: Automating Terraform in CI/CD, managing state remotely in pipelines, secret management in CI/CD tools, environment isolation.
+
+
+8. Managing Large Infrastructure
+
+Scenario: You’re managing a large-scale infrastructure with hundreds of resources. Applying changes takes a long time. How would you optimize this?
+
+Concepts: Terraform graph, dependency resolution, terraform parallelism, resource targeting (terraform apply -target), state partitioning.
