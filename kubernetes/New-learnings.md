@@ -14,10 +14,10 @@ Examples:
 Adding Annotations:
 =====================
 
-kubectl annotate pod <pod-name> <key1>=<value1> <key2>=<value2> --overwrite
+kubectl annotate pod pod-name key1=value1 key2=value2 --overwrite
 
-<pod-name>: The name of the pod.
-<key1>=<value1>: The annotation key-value pair.
+pod-name: The name of the pod.
+key1=value1: The annotation key-value pair.
 --overwrite: Ensures that the annotation is updated if it already exists.
 
 kubectl annotate pod my-pod environment=production team=devops --overwrite
@@ -27,10 +27,10 @@ kubectl annotate pod my-pod environment=production team=devops --overwrite
 Adding Labels:
 ================
 
-kubectl label pod <pod-name> <key1>=<value1> <key2>=<value2> --overwrite
+kubectl label pod pod-name key1=value1 key2=value2 --overwrite
 
-<pod-name>: The name of the pod.
-<key1>=<value1>: The label key-value pair.
+pod-name: The name of the pod.
+key1=value1: The label key-value pair.
 --overwrite: Ensures that the label is updated if it already exists.
 
 kubectl label pod my-pod app=frontend tier=web --overwrite
