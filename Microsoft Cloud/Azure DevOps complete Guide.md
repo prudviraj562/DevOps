@@ -7,8 +7,6 @@ It provides visual boards, backlogs, and dashboards to streamline project workfl
    like To Do, In Progress, and Done. It helps teams visualize work, limit tasks in progress, and identify bottlenecks for smoother, more efficient workflows.
 
    Example:
-     To Do	     In Progress	      Done
-     Task A	       Task B	         Task C
 
 ![image](https://github.com/user-attachments/assets/d93eb516-9965-4434-a738-d18492c16d65)
 
@@ -18,7 +16,7 @@ It provides visual boards, backlogs, and dashboards to streamline project workfl
 
   Example:
      Backlog	    To Do	      In Progress	   Testing	   Done
-     Feature A	  Bug #123	   Feature B	   Feature C	 Bug #124
+    
 
 -- **Agile**: A project management methodology focused on delivering value through iterative development, collaboration, and adaptability to change. It emphasizes small, incremental releases for continuous improvement.
 
